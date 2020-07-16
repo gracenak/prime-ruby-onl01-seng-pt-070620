@@ -7,7 +7,7 @@ def prime?(num)
     if num % 1 == 0
       return false
     end 
-    n += 1
+    i += 1
   end
   true
 end
