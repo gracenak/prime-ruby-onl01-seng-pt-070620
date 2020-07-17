@@ -12,7 +12,7 @@
 #   true
 # end
 
-ef prime?(value)
+def prime?(value)
   if value <= 1 || value == 0 || value == 1
     return false
   elsif
@@ -22,5 +22,5 @@ ef prime?(value)
       end
     end
   end
-  true  # <= need explanation
+  true  
 end
